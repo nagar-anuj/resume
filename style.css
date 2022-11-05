@@ -1,8 +1,92 @@
-div {
-    background-color: red;
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.top {
+    background-color: lightblue;
 
 }
+
+.begin {
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.leftheader {
+    color: black;
+    font-size: 12px;
+    float: left;
+    font-family: 'Calibri';
+}
+
+.rightheader {
+    color: black;
+    font-size: 12px;
+    float: right;
+    font-family: 'Calibri';
+}
+
+#textbox {display:flex; flex-flow:row wrap;}
+
+.alignleft {
+color: black;
+font-size: 12px;
+font-family: 'Calibri';
+width:50%;
+text-align:left;
+}
+
+.alignright {
+color: black;
+font-size: 12px;
+font-family: 'Calibri';
+width:50%;
+text-align:right;
+}
+
+.heading {
+    color: darkolivegreen;
+    font-size: 26px;
+    text-align: left;
+    font-family: 'Calibri';
+}
+
+#jobtitle {
+    display: flex;
+    flex-flow: row wrap;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
+
+.worktitle {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Calibri';    
+
+  }
+
+.alignjtleft {
+    float: left;
+    width:33.33333%;
+    text-align:left;
+  }
+  .alignjtcenter {
+    float: left;
+    width:33.33333%;
+    text-align:center;
+  }
+  .alignjtright {
+   float: left;
+   width:33.33333%;
+   text-align:right;
+  }
+
+  .jobdescription {
+    color: black;
+    font-size: 16px;
+    font-family:'Calibri';
+  }
+  
+
