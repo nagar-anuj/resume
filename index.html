@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <title>Cloud Resume Challenge</title>
         <link rel="stylesheet" href="style.css">
+ 
+      
     </head>
     <body>
         <div class="top"><h1 class="begin">Anuj Nagar</h1>
+            
 
         <div id="textbox">
-            <p class="alignleft">
+            <p class="alignleft">   
                 Helsinki, Finland
                 <br>
                 <a href="https://www.linkedin.com/in/anujnagar/" target="_blank">LinkedIn</a>
@@ -20,7 +23,7 @@
                 +358 41 484 9646
                 <br>
                 anuj1106@gmail.com
-            </p>
+            </p>   
            
             </div>
         </div>
@@ -135,6 +138,21 @@
         <ul class="jobdescription">
             <li>I’m an avid reader and enjoy tinkering around with small projects in home automation.</li>
         </ul>
+
+        <div class="counter_text">
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <h6>You are visitor:</h6>
+            <div id="counter">
+              <script>
+                fetch('https://sf05940pk8.execute-api.us-east-1.amazonaws.com/dev')
+                .then(res => res.json())
+                .then(res => {document.getElementById("counter").innerHTML = res.body.count})
+                .then(data => console.log(data));
+              </script>
+            </div>
+        </div>
+           
+        
     </body>
 
 </html>
